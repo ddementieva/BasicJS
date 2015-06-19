@@ -1,42 +1,27 @@
 app.controller('MainController', function($scope) {
             $scope.today = new Date();
             $scope.appetizers = [{
-                name: 'Caprese',
-                description: 'Mozzarella, tomatoes, basil, balsmaic glaze.',
+                name: 'Ukrainian Salad',
                 price: 4.95
             }, {
-                name: 'Mozzarella Sticks',
-                description: 'Served with marinara sauce.',
+                name: 'Carot Sticks',
                 price: 3.95
-            }, {
-                name: 'Bruschetta',
-                description: 'Grilled bread garlic, tomatoes, olive oil.',
-                price: 4.95
             }];
             $scope.mains = [{
-                name: 'Margherita',
-                description: 'Marinara sauce, mozzarella, fresh basil.',
-                price: 6.95
-            }, {
-                name: 'Pepperoni',
-                description: 'Pepperoni, marinara sauce, mozzarella, fresh oregano.',
+                name: 'Varenyky',
                 price: 7.95
             }, {
-                name: 'Rustica',
-                description: 'Marinara sauce, kalamata olives, roasted garlic, fresh oregano.',
+                name: 'Deruny',
                 price: 8.95
             }];
             $scope.extras = [{
                 name: 'Breadsticks',
-                description: 'Served with marinara sauce.',
                 price: 4.95
             }, {
-                name: 'Soup of the day',
-                description: 'Take a chance.',
+                name: 'Borshch of the day',
                 price: 4.95
             }, {
-                name: 'Buffalo Wings',
-                description: 'Feel the power of wings.',
+                name: 'Chicken Wings',
                 price: 6.95
             }];
         });
